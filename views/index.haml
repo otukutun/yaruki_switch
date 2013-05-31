@@ -15,11 +15,23 @@
         .navbar.navbar-fixed-top
           .navbar-inner
             .container
-              %h1 やる気
-              %p welcome to my website made
-              %a(href='http://ruby-lang.org')<Ruby
-              %img(src='http://day.living-tokyo.com/wp-content/uploads/2009/09/090301.jpg')
+              %a.btn.btn-navbar
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+              %a.brand(href='/')
+                やる気スイッチ
+              .nav-collase
+        .row
+          .span3
+          .span6
+            %h1 やる気
+            %p welcome to my website made
+            %a(href='video')
+              %img(src='img/switch_on.jpg')
+          .span3
 
 
-        %script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
-        %script{:src => 'js/bootstrap.min.js'}
+
+      %script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+      %script{:src => 'js/bootstrap.min.js'}
