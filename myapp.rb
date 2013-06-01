@@ -1,7 +1,7 @@
 #coding: utf-8
 require 'sinatra'
 require 'haml'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
 require 'open-uri'
 #require 'json'
 
