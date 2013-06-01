@@ -20,6 +20,6 @@ get '/' do
     print meigen[rand(lines - 1)]
 
     @meigen = meigen[rand(lines - 1)]
-    haml :index
+    haml :character
 
 end
