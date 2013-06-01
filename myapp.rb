@@ -9,6 +9,6 @@ get '/' do
   haml :index
 end
 
-#get '/post' do
-#  haml :index
-#end
+get '/video' do
+  haml :video
+end
