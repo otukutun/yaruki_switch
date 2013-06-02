@@ -41,3 +41,7 @@ get '/randomjump' do
         redirect '/character'
     end
 end
+
+get '/about' do
+  haml :about
+end
