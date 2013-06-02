@@ -13,7 +13,7 @@ end
 
 get '/video' do
   @ary = ["http://www.youtube.com/embed/H65kYmZ9JIM","http://www.youtube.com/embed/vc_UVpFayaw","http://www.youtube.com/embed/YbPWrtBSUHk","http://www.youtube.com/embed/vNCB4R3P2xE","http://www.youtube.com/embed/Iy9_9uJgRD0"]
-  @ary2 = @ary[rand 5] << "?autoplay=1?rel=0"
+  @ary2 = @ary[rand 5] << "?autoplay=1"
   haml :video
 end
 
