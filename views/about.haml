@@ -1,0 +1,48 @@
+!!!
+%html
+  %head
+    %title やる気スイッチ
+    %meta{ charset: 'utf-8'}
+    %link(rel='stylesheet' href='css/bootstrap.css')
+    %link(rel='stylesheet' href='css/bootstrap-responsive.css')/
+    :css
+      body {
+      padding-top: 60px;
+      }
+    :javascript
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-41414180-1', 'herokuapp.com');
+                  ga('send', 'pageview');
+  %body
+    .container
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            %a.btn.btn-navbar
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            %a.brand(href='/')
+              やる気スイッチ
+            .nav-collase
+      .row
+        .span12
+          %p
+            このサイトはやる気がない人を勇気づける目的で作成しました。開発は@otukutunと@Micky12127、@Turbo_5296
+            の３名で作成しました。このサイトは岩手県滝沢村で行われたハッカソン「たきざワッカソン」で集まったメンバーでつくったものです。何かと不備があるかと思いますが、あたたかい気持ちで見守っていてください。意見や質問などはTwitterで受け付けていますので、よろしくお願いします。
+      .row
+        .span12
+          開発者一覧
+          %a(href='https://twitter.com/otukutun')<@otukutun
+          |
+          %a(href='https://twitter.com/Micky12127')<@Micky12127
+          |
+          %a(href='https://twitter.com/Turbo_5296')<@Turbo_5296
+
+
+
+    %script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+    %script{:src => 'js/bootstrap.min.js'}
